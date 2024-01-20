@@ -25,7 +25,7 @@ function addTwoNum(num1,num2) {
 
 addTwoNum(3,5) //8
 addTwoNum(3,"a") //3a
-addTwoNum(3,null)//3
+addTwoNum(5,null)//5
 
 /*
 

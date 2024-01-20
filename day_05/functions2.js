@@ -17,8 +17,8 @@ user({
 })
 
 
-function returnSecondValue(getArray){
+function returnSecondVal(getArray){
     console.log(getArray[1]);
 }
 
-returnSecondValue([100,200,"b",null])
+returnSecondVal([100,200,"b",null])
