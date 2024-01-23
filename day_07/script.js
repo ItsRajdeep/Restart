@@ -1,5 +1,5 @@
 
-const requestUrl = 'https://api.github.com/users/hiteshchoudhary'
+const requestUrl = 'https://api.github.com/users/ItsRajdeep'
         const xhr = new XMLHttpRequest();
         xhr.open('GET', requestUrl)
         xhr.onreadystatechange = function(){
@@ -11,7 +11,8 @@ const requestUrl = 'https://api.github.com/users/hiteshchoudhary'
                 console.log(data);
                 document.getElementById("follower").innerHTML=data.followers
                 let image = data.avatar_url;
-                document.getElementById("imgbox").style.backgroundImage="url(image)"
+                // console.log(image)
+                document.getElementById("imgbox").style.backgroundImage="url('https://avatars.githubusercontent.com/u/130769261?v=4')"
             }
         }
         
