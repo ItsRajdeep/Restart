@@ -9,7 +9,8 @@ Array.from(buttons).forEach((button) => {
             string=""
             document.querySelector('input').value=string
         }
-        else if(e.target.innerHTML=="="){
+
+        else if(e.target.innerHTML== "="){
             string=eval(string);
             document.querySelector('input').value=string
 
