@@ -4,12 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Clock</title>
+    <link rel="stylesheet" href="clock.css">
 </head>
 <body>
-    <dv class="container">
+    <div class="container">
+        <h2>Digital Clock</h2>
         <div class="clock">
-            
+            <div id="day">--</div>
+            <div class="time">
+                <p class="hour">00 </p>:
+                <p class="minute">00 </p>:
+                <p class="second">00</p>
+            </div>
+            <div class="date">
+                <p id="date">00</p>/
+                <p id="month">00</p>/
+                <p id="year">0000</p>
+            </div>
         </div>
-    </dv>
+    </div>
+    <script src="clock.js"></script>
 </body>
 </html>

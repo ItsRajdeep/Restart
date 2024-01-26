@@ -2,3 +2,37 @@
     margin: 0;
     padding: 0;
 }
+
+.container{
+    background-color: #414141;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 1px black;
+}
+.clock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    margin-top: 1rem;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px black;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(144, 38, 243);
+}
+.date,.time{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
