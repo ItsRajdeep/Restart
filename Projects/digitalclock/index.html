@@ -10,17 +10,19 @@
     <div class="container">
         <h2>Digital Clock</h2>
         <div class="clock">
-            <div id="day">--</div>
-            <div class="time">
-                <p class="hour">00 </p>:
-                <p class="minute">00 </p>:
-                <p class="second">00</p>
-            </div>
-            <div class="date">
-                <p id="date">00</p>/
-                <p id="month">00</p>/
+            <div class="date" style="font-size: 1.5rem; font-family: 'Courier New', Courier, monospace;">
+                <p>Date- </p>
+                <p id="date">00</p>.
+                <p id="month">00</p>.
                 <p id="year">0000</p>
             </div>
+            <div class="time" style="font-size: 5rem;">
+                <p id="hour">00 </p>:
+                <p id="minute">00 </p>:
+                <p id="second">00</p>
+                <p id="meridian" style="font-size: 1rem;position: relative; margin-top: 40px;"></p>
+            </div>
+            <div id="day" style="font-size: 1rem;">--</div>
         </div>
     </div>
     <script src="clock.js"></script>
