@@ -12,8 +12,8 @@
     background-color: blueviolet;
 }
 .gameContainer{
-    height: 50vh;
-    width: 50vw;
+    height: 350px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,8 +25,8 @@
     margin-top: 2rem;
     height: 60%;
     display: grid;
-    grid-template-columns: repeat(3 , 10vw);
-    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3 , 70px);
+    grid-template-rows: repeat(3,70px);
     transition: all ease-in-out 0.3s;
 }
 .box{
@@ -34,7 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5vw;
+    font-size: 3rem;
     cursor: pointer;
     transition: all ease-in-out 0.3s;
 }
@@ -59,6 +59,7 @@
 
 #win{
     display: none;
+    transition: all ease-in 0.5s;
     
 }
 .winBoard{
